@@ -1,4 +1,4 @@
-import './scss/join.scss';
+import '/scss/join.scss';
 
 // components
 
