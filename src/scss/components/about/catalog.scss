@@ -19,7 +19,7 @@
       &:nth-child(3) {
         align-content: flex-end;
 
-        @include tablet {
+        @include small-tablet {
           align-content: normal;
         }
       }
@@ -28,7 +28,7 @@
       &:nth-child(4n) {
         margin-top: -120px;
 
-        @include tablet {
+        @include small-tablet {
             margin-top: 0;
         }
       }

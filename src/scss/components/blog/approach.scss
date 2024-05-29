@@ -88,4 +88,8 @@
 .socials {
   display: flex;
   gap: 32px;
+
+  & path {
+    fill: var(--neutral-color-100);
+  }
 }
