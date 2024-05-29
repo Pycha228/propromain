@@ -90,6 +90,8 @@
   gap: 32px;
 
   &__link {
+    transition: opacity var(--transition);
+
     &:hover {
       opacity: 0.8;
     }
