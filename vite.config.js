@@ -10,9 +10,9 @@ export default defineConfig({
     port: 3000,
     open: true,
   },
-  publicDir: './src/assets',
+  publicDir: '../dist/assets',
   build: {
-    outDir: './dist',
+    outDir: '../dist',
     emptyOutDir: true,
     rollupOptions: {
       input: {
