@@ -1,0 +1,62 @@
+.article {
+  padding: 40px 0 56px;
+
+  @include tablet {
+    padding: 20px 0 36px;
+  }
+
+  &__info {
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 24px;
+
+    @include mobile {
+      gap: 10px;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &-user {
+      @include flex-all-between;
+      gap: 24px;
+      max-width: 298px;
+
+      @include mobile {
+        gap: 12px;
+      }
+
+      &-name {
+        font-weight: 600;
+        line-height: 1.44;
+        color: var(--neutra-color-100);
+      }
+
+      &-job {
+        font-weight: 500;
+        line-height: 1.62;
+        color: var(--neutra-color-150);
+      }
+    }
+  }
+
+  &__img {
+    margin-bottom: 80px;
+    width: 100%;
+
+    @include tablet {
+      margin-bottom: 40px;
+    }
+
+    & img {
+      width: 100%;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    line-height: 1.78;
+    color: var(--neutra-color-100);
+  }
+}

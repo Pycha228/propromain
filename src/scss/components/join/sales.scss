@@ -1,0 +1,44 @@
+.sales {
+  padding-bottom: 160px;
+
+  @include tablet {
+    padding-bottom: 80px;
+  }
+
+  @include mobile {
+    padding-bottom: 60px;
+  }
+
+  &__container {
+    @include flex-all-between;
+    gap: 30px;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    padding: 80px var(--container-padding);
+
+    @include tablet {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    @include mobile {
+      gap: 20px;
+      padding: 40px var(--container-padding);
+    }
+  }
+
+  &__title {
+    padding: 5px 0;
+    max-width: 480px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    color: var(--neutral-color-100);
+  }
+
+  &__descr {
+    max-width: 522px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--neutral-color-100);
+  }
+}
