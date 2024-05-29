@@ -1,4 +1,4 @@
-import '/scss/blog.scss';
+import './scss/blog.scss';
 
 // components
 

@@ -1,4 +1,4 @@
-import '/scss/about.scss';
+import './scss/about.scss';
 
 // components
 
