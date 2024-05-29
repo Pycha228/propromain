@@ -90,3 +90,15 @@
     }
   }
 }
+
+#map {
+  width: 100%;
+}
+
+[class*="copyrights-pane"] {
+  display: none !important;
+}
+
+[class*="ground-pane"] {
+  filter: grayscale(1);
+}
